@@ -21,7 +21,7 @@ function SEO({ children, title, description, index = true, image }) {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description || siteDescription} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="@estevanmaito" />
+      <meta name="twitter:creator" content="@kcute_" />
       <meta name="twitter:image" content={socialImage} />
 
       <title>{title}</title>
