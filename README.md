@@ -1,4 +1,4 @@
-# Windmill UI Site and Docs
+# totailwind.com | totailwindcss.com
 
 ## Getting Started
 
