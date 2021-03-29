@@ -35,7 +35,7 @@ export default function Home() {
         <Container>
           <header className="max-w-2xl py-20 text-gray-700">
             <h1 className="text-5xl font-extrabold leading-none tracking-tight font-montserrat md:text-6xl">
-              Windmill Dashboard React
+              2Tailwind
             </h1>
             <p className="mt-4 font-mono">Four 100 scores and PWA ready. Just connect your data.</p>
           </header>
