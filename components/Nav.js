@@ -36,22 +36,29 @@ function Nav({ menu }) {
             )}
             <Link href="/">
               <a className="block font-mono font-semibold text-right text-gray-700">
-                to<span className="text-teal-500">Tailwind</span>
+                <span className="text-gray-700">2Tailwind</span>
+              </a>
+            </Link>
+            <Link href="/start">
+              <a className="block font-mono font-semibold text-right text-gray-700">
+                <span className="text-gray-700">start</span>
               </a>
             </Link>
           </div>
-          <Link href="/">
-            <a className="hidden font-mono font-semibold text-right text-gray-700 md:block">
-              to<span className="text-teal-500">Tailwind</span>
-            </a>
-          </Link>
         </>
       ) : (
-        <Link href="/">
-          <a className="block font-mono font-semibold text-right text-gray-700">
-            to<span className="text-teal-500">Tailwind</span>
-          </a>
-        </Link>
+        <div className="flex items-center justify-between">
+          <Link href="/">
+            <a className="block font-mono font-semibold text-left text-gray-700">
+              <span className="text-teal-800">2Tailwind</span>
+            </a>
+          </Link>
+          <Link href="/start">
+            <a className="block font-mono font-semibold text-right text-gray-700">
+              <span className="text-teal-600">start</span>
+            </a>
+          </Link>
+        </div>
       )}
     </Container>
   )
