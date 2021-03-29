@@ -42,14 +42,32 @@ export default function Home() {
         </Container>
       </div>
 
-      <div className="flex flex-col md:flex-row relative w-fullz px-5 md:px-16 my-8 md:my-12 items-center">
-        <Container className="my-1">
+      <div className="flex flex-col md:flex-row relative w-fullz px-3 md:px-10 my-8 md:my-12 items-center">
+        <div className="px-4 sm:px-2 sm:w-full my-1">
           <div className="grid gap-10 md:gap-16 md:grid-rows-3">
-            <div className="text-gray-700 py-5">
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe4f3fyatDC-nlNPAZA72PuiXFxp1Sax-G9dvFPZh1AJTL8tA/viewform?embedded=true" width="640" height="2413" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <div 
+            // style={{
+            //   position: 'relative',
+            //   paddingBottom: '26.52%',
+            //   paddingTop: '5px',
+            //   height: '0px',
+            //   overflow: 'hidden'
+            // }}
+            >
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe4f3fyatDC-nlNPAZA72PuiXFxp1Sax-G9dvFPZh1AJTL8tA/viewform?embedded=true"  
+              // style={{
+              //   position: 'absolute',
+              //   top: '0',
+              //   left: '0',
+              //   width: '100%',
+              //   height: '100%'
+              // }} 
+              height="2413"
+              width="370"
+               frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
             </div>
           </div>
-        </Container>
+        </div>
       </div>
 
       <Footer />
