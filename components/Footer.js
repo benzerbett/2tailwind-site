@@ -6,10 +6,10 @@ function Footer() {
     <footer className="my-20 font-mono">
       <Container>
         <p className="text-sm text-center text-gray-700">
-          Made by{' '}
-          <a className="border-b border-primary" href="https://benzerbett.github.io">
-            Bett
+          <a className="border-b border-primary" href="https://twitter.com/2tailwind" rel="noreferrer noopener">
+            @2tailwind
           </a>
+          {' '} on Twitter
         </p>
       </Container>
     </footer>

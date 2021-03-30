@@ -62,8 +62,8 @@ export default function Home({act_Pg, frm_sbd}) {
             <div className="text-gray-700">
               <p className="mb-2 font-mono text-lg font-semibold">2. We jointly review the work to be done</p>
               <p className="mb-2">We will discuss the work to be done and plan the scope of work.</p>
-              <Link href="/start">
-                <a className="border-b border-primary">our channels</a>
+              <Link href="https://twitter.com/2tailwind">
+                <a target="_blank" rel="noopener noreferrer" className="border-b border-primary" title="Twitter @2tailwind">twitter</a>
               </Link>
             </div>
             <div className="text-gray-700">
