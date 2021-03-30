@@ -11,10 +11,11 @@ module.exports = windmill({
       './layouts/**/*.js',
     ],
   },
+  darkMode: 'media',
   theme: {
     extend: {
       colors: {
-        primary: '#02f8ba',
+        primary: '#00cec9',
       },
       listStyleType: {
         square: '"▫"',
