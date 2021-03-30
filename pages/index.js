@@ -38,7 +38,7 @@ export default function Home() {
               </span>)} project to Tailwind CSS
             </h1>
             <h5 className="text-xl mt-4 font-mono">
-              For as little as <a href="/pricing" title="Pricing starts at $50. Click to see full pricing" className="font-bold hover:underline active:underline focus:underline text-xl">$100</a><sup>*</sup>. 
+              <span className="hidden">For as little as <a href="/pricing" title="Pricing starts at $50. Click to see full pricing" className="font-bold hover:underline active:underline focus:underline text-xl">$100</a><sup>*</sup>. </span>
               <a href="/start" className="ml-3 border-b-2 border-primary hover:border-black hover:text-primary active:border-black active:text-primary focus:border-black focus:text-primary transition-colors ease-in-out duration-300 font-semibold">Start now</a>
             </h5>
           </header>

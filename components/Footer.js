@@ -7,7 +7,7 @@ function Footer() {
       <Container>
         <p className="text-sm text-center text-gray-700">
           Made by{' '}
-          <a className="border-b border-primary" href="https://twitter.com/kcute_">
+          <a className="border-b border-primary" href="https://benzerbett.github.io">
             Bett
           </a>
         </p>
