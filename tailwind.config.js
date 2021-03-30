@@ -4,7 +4,7 @@ const windmill = require('@windmill/react-ui/config')
 module.exports = windmill({
   purge: {
     content: [
-      './pages/**/*.js',
+      // './pages/**/*.js',
       './pages/**/*.mdx',
       './containers/**/*.js',
       './components/**/*.js',
