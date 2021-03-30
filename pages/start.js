@@ -53,7 +53,6 @@ Start.getInitialProps = async ({req}) => {
   let act_Pg = 0
   let frm_sbd = false
   const subdomain = req.headers.host.split('.')[0]; // || 'sketch'
-  console.log(">>> ",subdomain)
   if(subdomain != undefined){
     frm_sbd = true
     if(subdomain == 'figma'){

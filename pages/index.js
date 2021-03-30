@@ -30,7 +30,7 @@ export default function Home({act_Pg, frm_sbd, subdomain}) {
   }, [activeDT])
   return (
     <div className="flex flex-col max-w-screen max-w-900z items-center">
-      <SEO title={!frm_sbd?("Figma / Sketch / AdobeXD"):(dTools[activeDT].name)+" To Tailwind CSS"} image="/logo.svg" />
+      <SEO title={(!frm_sbd?("Figma / Sketch / AdobeXD"):(dTools[activeDT].name))+" To Tailwind CSS"} image="/logo.svg" />
       <div className="bg-pattern w-full">
         <Nav />
         <Container className="flex flex-col items-center">
