@@ -8,7 +8,7 @@ import React from 'react'
 export default function Home() {
   return (
     <div className="flex flex-col max-w-screen max-w-900z items-center">
-      <SEO title="2Tailwind" image="/logo.svg" />
+      <SEO title={dTools[activeDT].name+" To Tailwind CSS"} image="/logo.svg" />
       <div className="bg-pattern w-full">
         <Nav />
         <Container className="flex flex-col items-center">
