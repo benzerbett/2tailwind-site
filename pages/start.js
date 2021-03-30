@@ -15,7 +15,7 @@ export default function Start({act_Pg, frm_sbd}) {
   const [activeDT, setActiveDT] = useState(act_Pg)
   return (
     <div className="flex flex-col max-w-screen max-w-900z items-center">
-      <SEO title={dTools[activeDT].name+" To Tailwind CSS"} image="/logo.svg" />
+      <SEO title={"Figma / Sketch / AdobeXD To Tailwind CSS"} image="/logo.svg" />
       <div className="bg-pattern w-full">
         <Nav />
         <Container className="flex flex-col items-center">
@@ -49,10 +49,11 @@ export default function Start({act_Pg, frm_sbd}) {
   )
 }
 
-Start.getInitialProps = ({req}) => {
+Start.getInitialProps = async ({req}) => {
   let act_Pg = 0
   let frm_sbd = false
   const subdomain = req.headers.host.split('.')[0]; // || 'sketch'
+  console.log(">>> ",subdomain)
   if(subdomain != undefined){
     frm_sbd = true
     if(subdomain == 'figma'){
