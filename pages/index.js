@@ -31,15 +31,15 @@ export default function Home() {
       <div className="bg-pattern w-full">
         <Nav />
         <Container className="flex flex-col items-center">
-          <header className="max-w-3xl py-20 text-gray-700">
+          <header className="max-w-4xl py-20 text-gray-700">
             <h1 className="text-5xl font-extrabold leading-none tracking-tight font-montserrat md:text-6xl">
               We will help you migrate your {(<span className={"ml-2 text-"+dTools[activeDT].color}>
                 {dTools[activeDT].name}
               </span>)} project to Tailwind CSS
             </h1>
-            <h5 className="text-xl mt-4 font-mono">
+            <h5 className="text-xl mt-5 font-mono">
               <span className="hidden">For as little as <a href="/pricing" title="Pricing starts at $50. Click to see full pricing" className="font-bold hover:underline active:underline focus:underline text-xl">$100</a><sup>*</sup>. </span>
-              <a href="/start" className="ml-3 border-b-2 border-primary hover:border-black hover:text-primary active:border-black active:text-primary focus:border-black focus:text-primary transition-colors ease-in-out duration-300 font-semibold">Start now</a>
+              <a href="/start" className=" ml-2 mt-10 text-xl border-b-2 border-primary hover:border-black hover:text-primary active:border-black active:text-primary focus:border-black focus:text-primary transition-colors ease-in-out duration-300 font-bold">Start now</a>
             </h5>
             <i className="text-pink-600"></i><i className="text-pink-700"></i><i className="text-yellow-500"></i>
           </header>
