@@ -52,15 +52,18 @@ export default function Start({act_Pg, frm_sbd}) {
 Start.getInitialProps = async ({req}) => {
   let act_Pg = 0
   let frm_sbd = false
-  const subdomain = req.headers.host.split('.')[0]; // || 'sketch'
-  if(subdomain != undefined){
-    frm_sbd = true
-    if(subdomain == 'figma'){
-      act_Pg = 0
-    }else if(subdomain == 'xd' || subdomain == 'adobexd'){
-      act_Pg = 1
-    }else if(subdomain == 'sketch'){
-      act_Pg = 2
+  let subdomain = ''
+  if(req && req != undefined){
+    subdomain = req.headers.host.split('.')[0]; // || 'sketch'
+    if(subdomain != undefined){
+      frm_sbd = true
+      if(subdomain == 'figma'){
+        act_Pg = 0
+      }else if(subdomain == 'xd' || subdomain == 'adobexd'){
+        act_Pg = 1
+      }else if(subdomain == 'sketch'){
+        act_Pg = 2
+      }
     }
   }
   return {act_Pg, frm_sbd};

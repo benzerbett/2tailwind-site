@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "node getComponentsPages.js ./pages/react-ui/components",
     "dev": "next dev",
-    "prebuild": "node getComponentsPages.js ./pages/react-ui/components",
     "build": "next build",
     "start": "next start",
     "analyze": "env ANALYZE=true next build"
