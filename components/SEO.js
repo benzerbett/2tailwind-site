@@ -15,14 +15,14 @@ function SEO({ children, title, description, index = true, image }) {
 
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description || siteDescription} />
-      <meta property="og:site_name" content="2Tailwind" />
+      <meta property="og:site_name" content="Figma to Tailwind CSS" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content={socialImage} />
 
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description || siteDescription} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="@totailwind" />
+      <meta name="twitter:creator" content="@trybeapps" />
       <meta name="twitter:image" content={socialImage} />
 
 
