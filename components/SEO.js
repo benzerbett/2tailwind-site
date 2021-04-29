@@ -10,7 +10,7 @@ function SEO({ children, title, description, index = true, image }) {
   return (
     <Head>
       <meta name="description" content={description || siteDescription} />
-      <meta name="author" content="2Tailwind" />
+      <meta name="author" content="@trybeapps" />
       <meta name="robots" content={index ? 'index' : 'noindex'} />
 
       <meta property="og:title" content={title} />
