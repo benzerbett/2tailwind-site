@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 function SEO({ children, title, description, index = true, image }) {
+  description += " Figma to Tailwind CSS, Sketch to Tailwind CSS, Adobe XD to tailwind CSS, Bootstrap to Tailwind CSS, Tailwind CSS Experts, CSS Experts for hire"
   const siteDescription = description
     ? description
     : 'We\'ll help migrate your project to Tailwind CSS'
