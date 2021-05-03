@@ -6,11 +6,11 @@ function Footer() {
     <footer className="my-20 font-mono">
       <Container>
         <p className="text-sm text-center text-gray-700">
-          <a className="border-b border-primary" href="https://twitter.com/2tailwind" rel="noreferrer noopener">
-            @2tailwind
+          <a className="border-b border-primary" href="https://twitter.com/trybeapps" rel="noreferrer noopener">
+            @trybeapps
           </a>
-          {' '} on Twitter
-        </p>
+
+</p>
       </Container>
     </footer>
   )
